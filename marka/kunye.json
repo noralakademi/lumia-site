@@ -1,0 +1,33 @@
+{
+  "kaynaklar": {
+    "docs/design/app-icon/lumia-appstore-icon-cream.png": {
+      "sha256": "6bf3ca9f12c20c78cc4a8b09e8b97632d69fa12eca5fcd71948e1c1d094463df",
+      "bayt": 71182
+    },
+    "assets/backgrounds/lumia-bg-baslangic.jpg": {
+      "sha256": "48b30cc713a6593c9a91b12441cfe82498989fa7c003ad53f47a84f49b949be5",
+      "bayt": 728346
+    },
+    "assets/fonts/DMSerifDisplay-Regular.ttf": {
+      "sha256": "8cc3643535edf039aa5d95440a8542735e9197e4f4b8d9303e980fefbf5ab616",
+      "bayt": 76580
+    },
+    "assets/fonts/Inter-Regular.ttf": {
+      "sha256": "15b294b67f2f8bbc04d990023ef4aec66502b87dc9040d84abe5f896ccb693de",
+      "bayt": 324796
+    }
+  },
+  "uretilen": [
+    "apple-touch-icon.png",
+    "favicon-32.png",
+    "lumia-logo-192.png",
+    "lumia-logo-512.png",
+    "lumia-zemin-1228.webp",
+    "lumia-zemin-760.webp",
+    "og-image.png"
+  ],
+  "notlar": {
+    "zemin-sol-kenar-kirpma": "lumia-zemin-*.webp, kaynagin SOL 2 SUTUNU KIRPILARAK uretilir (1228 -> 1226, sonra hedef olcuye yeniden boyutlandirilir). Sebep OLCULDU (28 Eki 2026): kaynak JPG'nin x=0 sutunu gri (171,171,171) ve 2048 satirin 1563'unde koyu; x=1 gecis (198,200,188); gercek icerik x=2'de basliyor (230,234,212). Diger uc kenar TEMIZ (olculdu). Kirpilmazsa kart zemininin sol ucunda dikey bir bozuk serit goruluyor - kullanici iki ayri ekran goruntusunde bildirdi. KAYNAK DOSYA DEGISTIRILMEDI: ayni JPG'yi uygulama da kullaniyor (onboarding_screen.dart) ama orada BoxFit.cover + dar telefon en-boy orani sol/sag kenari zaten kirpiyor.",
+    "uretim": "Turevler ad hoc uretildi; yeniden uretim betigi HENUZ YOK (Faz 5 runbook borcu)."
+  }
+}

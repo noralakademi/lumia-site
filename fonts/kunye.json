@@ -1,0 +1,20 @@
+{
+  "DMSerifDisplay-Regular.ttf": {
+    "ttf_sha256": "8cc3643535edf039aa5d95440a8542735e9197e4f4b8d9303e980fefbf5ab616",
+    "ttf_bayt": 76580,
+    "woff2": "DMSerifDisplay-Regular.woff2",
+    "woff2_bayt": 31944
+  },
+  "Inter-Regular.ttf": {
+    "ttf_sha256": "15b294b67f2f8bbc04d990023ef4aec66502b87dc9040d84abe5f896ccb693de",
+    "ttf_bayt": 324796,
+    "woff2": "Inter-Regular.woff2",
+    "woff2_bayt": 108100
+  },
+  "Inter-SemiBold.ttf": {
+    "ttf_sha256": "334bb2c51aeba5f566abac8d03a7e75ab3234d6926b52e92a85dc704129258b5",
+    "ttf_bayt": 326024,
+    "woff2": "Inter-SemiBold.woff2",
+    "woff2_bayt": 112304
+  }
+}

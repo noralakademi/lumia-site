@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="tr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<!-- ÜRETİLMİŞ DOSYA — ELLE DÜZENLEME.
+     Kaynak: docs/legal/TR/gizlilik-politikasi.md · profil: dizin=yok
+     Yeniden üret: dart run tool/hukuk_yayinla.dart --dizin=yok -->
+<style>
+  :root { color-scheme: light dark;
+    --kagit:#FBFBF3; --murekkep:#1b2a16; --soluk:#55604f; --cizgi:#e2e6da; }
+  @media (prefers-color-scheme: dark) { :root {
+    --kagit:#14180f; --murekkep:#eef1e7; --soluk:#a9b3a2; --cizgi:#2b3324; } }
+  body { margin:0 auto; max-width:46rem; padding:2.5rem 1.1rem 5rem;
+    background:var(--kagit); color:var(--murekkep);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    overflow-wrap:break-word; }
+  h1 { font-size:1.7rem; line-height:1.25; margin:0 0 1.4rem; }
+  h2 { font-size:1.22rem; margin:2.3rem 0 .7rem; }
+  h3 { font-size:1.05rem; margin:1.7rem 0 .5rem; }
+  p,li { margin:.7rem 0; }
+  ul,ol { padding-left:1.3rem; }
+  hr { border:0; border-top:1px solid var(--cizgi); margin:2.2rem 0; }
+  code { font-size:.88em; background:rgba(127,127,127,.14);
+    padding:.1em .35em; border-radius:4px; }
+  a { color:inherit; }
+  del { color:var(--soluk); }
+  blockquote { margin:1.4rem 0; padding:.9rem 1.1rem;
+    border-left:3px solid var(--cizgi); background:rgba(127,127,127,.06);
+    border-radius:0 8px 8px 0; }
+  blockquote p { margin:0; }
+  table { width:100%; border-collapse:collapse; margin:1.1rem 0;
+    font-size:.93rem; display:block; overflow-x:auto; }
+  th,td { border:1px solid var(--cizgi); padding:.5rem .6rem;
+    text-align:left; vertical-align:top; }
+  th { background:rgba(127,127,127,.09); }
+</style>
+<h1>Gizlilik Politikası - Lumia</h1>
+<h2>Birkaç cümlede özet:</h2>
+<blockquote><p>Sağlık kayıtların telefonunda kalır. Semptom, döngü, ilaçlar, uyku ve evre kayıtların sunucularımıza gönderilmez. Sunucuda yalnızca hesabın (e-posta adresin, takma adın, oturum ve güvenlik kayıtların ve dil tercihinin bir kopyası) ile rıza kaydın bulunur.</p></blockquote>
+<hr>
+<h2>1. Biz kimiz?</h2>
+<table>
+<thead><tr>
+<th></th>
+<th></th>
+</tr></thead><tbody>
+<tr>
+<td>Unvan</td>
+<td>Neural Academy Ltd. Şti.</td>
+</tr>
+<tr>
+<td>Adres</td>
+<td>Çukurambar mah. Zeki Ergezen cad. 2/4, Çankaya/Ankara</td>
+</tr>
+<tr>
+<td>İletişim</td>
+<td>destek@lumiaapp.net</td>
+</tr>
+</tbody></table>
+<p>Bu metinde "Lumia" veya "biz", yukarıdaki şirketi, "Uygulama" ise Lumia mobil uygulamasını ifade eder.</p>
+<p>Lumia, perimenopoz ve menopoz dönemindeki kişiler için bir takip ve bilgi uygulamasıdır. <strong>Tıbbi bir iddiası yoktur. Tanı koymaz, ilaç veya doz önermez.</strong></p>
+<hr>
+<h2>2. Hangi verileri işliyoruz?</h2>
+<h3>2.1 Telefonunda kalan veriler (sunucuya GÖNDERİLMEZ)</h3>
+<p>Bunların tamamı cihazında lokal olarak tutulur ve verine bizim erişimimiz yoktur:</p>
+<ul>
+<li>Semptom kayıtların (sıcak basması, uyku, ruh hâli vb.)</li>
+<li>Döngü kayıtların</li>
+<li>İlaç kayıtların ve alım işaretlerin</li>
+<li>Uyku günlüğün ve uyku programı ilerlemen</li>
+<li>Hatırlatıcıların</li>
+<li>Menopoz evren ve evre değerlendirmesi yanıtların</li>
+<li>Hangi makaleyi okuduğun</li>
+<li>Uygulama ayarların (nefes egzersizi süresi, titreşim gibi)</li>
+</ul>
+<p>Kullanım ölçümü bu listedeki hiçbir kaydı göndermez (4.1).</p>
+<p><em>Tek istisna senin kendi ayarın olabilir:</em> telefonunun iCloud yedeği açıksa, işletim sistemi bu dosyayı da yedekleyecektir. Bu yedek Apple'ın altyapısındadır ve bizim kontrolümüzde değildir.</p>
+<h3>2.2 Sunucuda tutulan veriler</h3>
+<ul>
+<li><strong>Hesabın:</strong> e-posta adresin, şifrenin kriptografik özeti, hesap oluşturma/son giriş zamanları. (Hesap açmadan, anonim de kullanabilirsin. Bu durumda yalnızca cihazına atanmış anonim bir kimlik olacaktır.)</li>
+<li><strong>Rıza kaydın:</strong> hangi rızayı, hangi metin sürümüyle, ne zaman verdiğin ve geri aldıysan geri alma kaydın. Bu kayıt, rızayı aldığımızı ve geri aldığını ispat edebilmek için tutulur.</li>
+<li><strong>Takma adın</strong> (isteğe bağlı).</li>
+<li><strong>Dil tercihinin bir kopyası</strong> (<code>tr</code> ya da <code>en</code>). Seçimin cihazında tutulur ve uygulama onu cihazdan okur. Sunucudaki kopya yalnızca doğrulama ve şifre sıfırlama e-postalarını seçtiğin dilde gönderebilmemiz içindir.</li>
+<li><strong>Altyapı kayıtları:</strong> oturum ve güvenlik kayıtları.</li>
+</ul>
+<h3>2.3 İŞLEMEDİĞİMİZ veriler</h3>
+<ul>
+<li><strong>Reklam tanımlayıcısı yok</strong>, reklam ağı yok.</li>
+<li><strong>Çapraz uygulama ve çapraz site izlemesi yok</strong> (4.1).</li>
+<li><strong>Konum verisi yok.</strong></li>
+<li><strong>Rehber, fotoğraf, mikrofon veya kamera erişimi yok.</strong></li>
+<li><strong>Veri simsarlarına satış yok.</strong> Hiçbir veriyi satmıyor, kiralamıyor veya reklam amacıyla paylaşmıyoruz.</li>
+<li><strong>İsim ve profil fotoğrafı istemiyoruz.</strong></li>
+</ul>
+<hr>
+<h2>3. Verileri hangi amaçla işliyoruz?</h2>
+<table>
+<thead><tr>
+<th>Amaç</th>
+<th>Hangi veri</th>
+</tr></thead><tbody>
+<tr>
+<td>Hesabını oluşturmak ve girişini sağlamak</td>
+<td>E-posta, şifre özeti</td>
+</tr>
+<tr>
+<td>Sağlık verisi işlememize izin verdiğini ispat edebilmek</td>
+<td>Rıza kaydı</td>
+</tr>
+<tr>
+<td>Sana yedek dosyanı e-postayla ulaştırmak</td>
+<td>E-posta adresin</td>
+</tr>
+<tr>
+<td>Hesap güvenliği ve kötüye kullanımı önlemek</td>
+<td>Oturum/güvenlik kayıtları</td>
+</tr>
+<tr>
+<td>Kimlik e-postalarını (doğrulama, şifre sıfırlama) senin dilinde göndermek</td>
+<td>Dil tercihinin sunucudaki kopyası</td>
+</tr>
+<tr>
+<td>Uygulamanın temel işlevi (takip, içerik, hatırlatıcı)</td>
+<td>2.1'deki veriler cihazında tutulur. Bizim erişimimiz yoktur</td>
+</tr>
+<tr>
+<td>Uygulamayı geliştirmek (kullanım ölçümü)</td>
+<td>4.1'deki ölçüm verileri; yalnızca onay verirsen</td>
+</tr>
+</tbody></table>
+<p>Profilleme, otomatik karar verme, davranışsal reklam <em>yapmıyoruz</em>.</p>
+<hr>
+<h2>4. Verileri kimlerle paylaşıyoruz?</h2>
+<table>
+<thead><tr>
+<th>Alıcı</th>
+<th>Nerede</th>
+<th>Ne gider</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Supabase</strong> (veritabanı, kimlik doğrulama, sunucu işlevleri)</td>
+<td>Frankfurt, Almanya (AB)</td>
+<td>Yalnızca 2.2'deki veriler</td>
+</tr>
+<tr>
+<td><strong>Brevo</strong> (e-posta gönderimi)</td>
+<td>AB (Belçika)</td>
+<td>E-posta adresin, yedek gönderiminde ayrıca e-postanın konusu ve <strong>şifreli</strong> yedek dosyan</td>
+</tr>
+<tr>
+<td><strong>PostHog, Inc.</strong> (kullanım ölçümü)</td>
+<td>Depolama: Frankfurt, Almanya (AB) · İşleme: ABD dahil Avrupa dışı ülkeler</td>
+<td>Yalnızca 4.1'deki ölçüm verileri; yalnızca onay verdiysen</td>
+</tr>
+<tr>
+<td>Yetkili kamu kurumları</td>
+<td>·</td>
+<td>Yalnızca kanuni bir talep hâlinde, talebin kapsamıyla sınırlı</td>
+</tr>
+</tbody></table>
+<p>Bunların dışında <strong>hiçbir üçüncü tarafa aktarım yapmıyoruz.</strong></p>
+<p><strong>Apple bu tabloda yer bulunmuyor, çünkü o bizim yaptığımız bir aktarım değil:</strong> telefonunun iCloud yedeği açıksa, işletim sistemi 2.1'deki yerel veritabanı dosyasını Apple'a yedekler. Bu tamamen senin cihaz ayarına bağlıdır (bkz. 2.1'deki not).</p>
+<p><strong>Dürüstlük notu:</strong> bu sağlayıcılarla veri işleme sözleşmeleri (DPA), sağlayıcıların hizmet şartlarının eki olarak düzenlenmiştir ve bu şartların kabulüyle <strong>yürürlüktedir</strong>.</p>
+<hr>
+<h2>4.1 Kullanım ölçümü</h2>
+<p>Uygulamayı geliştirebilmek için, uygulamayı nasıl kullandığını ölçüyoruz: hangi ekranı ve aracı açtığın, kurulum adımlarının neresinde olduğun, bir kaydı hangi alanda oluşturduğun ve uygulamanın nerede hata verdiği.</p>
+<p><strong>Semptom, döngü ve ilaç kayıtların bu ölçüme katılmaz</strong>; uyku günlüğün, notların ve menopoz evren de katılmaz. Bir kaydın içeriği hiçbir koşulda gönderilmez. Hangi makaleyi okuduğun da gönderilmez.</p>
+<p>Ölçüm cihazında üretilen rastgele bir kimlikle yapılır ve hesabınla birleştirilmez. Zorunlu değildir: yalnızca onay verirsen çalışır, uygulamanın hiçbir özelliği buna bağlı değildir ve istediğin an <strong>Profil → Gizlilik ve veri → Rıza tercihleri → Kullanım istatistikleri</strong>'nden kapatabilirsin.</p>
+<p>Ölçümü bizim adımıza <strong>PostHog, Inc.</strong> (ABD) yapar; veri Frankfurt'ta depolanır ama ABD dahil Avrupa dışı ülkelerden işlenir ve sağlayıcıda sınırlı bir süre saklanır. Bunun dayanağı açık rızandır. Ayrıntısı Aydınlatma Metni 5.1'dedir.</p>
+<hr>
+<h2>5. Verilerin nerede işleniyor?</h2>
+<p>2.2 maddesinde belirtilen veriler için kullandığımız sunucular bugün Frankfurt'tadır (Almanya).</p>
+<p>Sağlık kayıtların (2.1 bölümü) telefonunda tutulur; sunucularımıza gönderilmez.</p>
+<p><em>"Lumia'da kayıtlı bir e-posta adresi"</em> bilgisinin kendisi bağlamda bir sağlık çıkarımı sayılabilir. Aktarılan küme bu yüzden bilinçli olarak asgaride tutulur. Bu sınırlı aktarımın hukuki dayanağı <strong>açık rızandır</strong> (rıza ekranında ayrı bir madde olarak sorulur). Ayrıntısı Aydınlatma Metni 7'dedir.</p>
+<hr>
+<h2>6. Yedekleme ve verilerini dışa aktarma</h2>
+<p><strong>Verimi dışa aktar</strong> ekranından, cihazındaki kayıtların <strong>şifreli</strong> bir yedeğini oluşturabilirsin.</p>
+<ul>
+<li>Şifreyi (parolayı) sen belirlersin ve yalnızca sende kalır.</li>
+<li>Dosya sunucumuz tarafından senin doğrulanmış e-posta adresine gönderilir.</li>
+<li>İçeriğini çözemeyiz, parola bizde bulunmaz.</li>
+<li>Kalıcı bir kopya tutmayız.</li>
+</ul>
+<p>Yedek dosyasını kendi e-posta kutunda saklamak senin sorumluluğundadır. Parolanı dosyayla aynı kanaldan paylaşmamaya dikkat et.</p>
+<hr>
+<h2>7. Verileri ne kadar süre saklıyoruz?</h2>
+<table>
+<thead><tr>
+<th>Veri</th>
+<th>Süre</th>
+</tr></thead><tbody>
+<tr>
+<td>Hesap bilgilerin</td>
+<td>Hesabını sildiğinde silinir.</td>
+</tr>
+<tr>
+<td>Rıza kaydın</td>
+<td>Hesap silindikten sonra 5 yıl daha ispat için saklanır. İçinde sağlık verisi ve e-posta yoktur. Rızayı geri alsan da kaydı tutulur.</td>
+</tr>
+<tr>
+<td>Cihazındaki kayıtlar</td>
+<td>Sen silene, rızanı geri alana veya uygulamayı kaldırana kadar tutulur.</td>
+</tr>
+<tr>
+<td>Oturum/güvenlik kayıtları</td>
+<td>En çok 90 gün tutulur. Altyapı ve e-posta sağlayıcılarımızın teknik logları, onların kendi saklama süreleri sonunda silinir</td>
+</tr>
+<tr>
+<td>Kullanım ölçümü kayıtları</td>
+<td>Sağlayıcıda sınırlı bir süre saklanır ve ardından silinir; süreyi sağlayıcının saklama politikası belirler (4.1)</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>8. Haklarının karşılığı uygulamada nerede?</h2>
+<table>
+<thead><tr>
+<th>İstediğin</th>
+<th>Nerede</th>
+</tr></thead><tbody>
+<tr>
+<td>Rızamı geri almak</td>
+<td>Profil → Gizlilik ve veri → Rıza tercihleri</td>
+</tr>
+<tr>
+<td>Kullanım ölçümünü kapatmak</td>
+<td>Profil → Gizlilik ve veri → Rıza tercihleri → Kullanım istatistikleri</td>
+</tr>
+<tr>
+<td>Verilerimin kopyasını almak</td>
+<td>Profil → Gizlilik ve veri → Verimi dışa aktar</td>
+</tr>
+<tr>
+<td>Hesabımı ve kayıtlarımı silmek</td>
+<td>Profil → Gizlilik ve veri → Hesabı sil</td>
+</tr>
+<tr>
+<td>Dilimi değiştirmek</td>
+<td>Profil → Kişiselleştirme → Dil</td>
+</tr>
+</tbody></table>
+<p><em>Çıkış yapmak cihazındaki kayıtları silmez, yalnızca oturumunu kapatır.</em></p>
+<p>Bunların dışındaki talepler (bilgi talebi, düzeltme, aktarım yapılan üçüncü kişileri öğrenme vb.) için <strong>destek@lumiaapp.net</strong> adresine yazabilirsin. Başvurun en geç 30 gün içinde sonuçlandırılır. KVKK m.11'deki hakların ve ayrıntıları <em>Aydınlatma Metni 10</em>'dadır.</p>
+<hr>
+<h2>9. Veriler nasıl korunuyor?</h2>
+<ul>
+<li>Sunucuyla tüm iletişim şifreli bağlantı (HTTPS/TLS) üzerinden yapılır.</li>
+<li>Sunucudaki her kayıt satır düzeyinde erişim kurallarıyla korunur: her kullanıcı yalnızca kendi verisine erişebilir.</li>
+<li>Şifren düz metin olarak saklanmaz (kriptografik özet).</li>
+<li>Yedek dosyan sadece senin bildiğin parolayla şifrelenir.</li>
+</ul>
+<p>Cihazında tutulan yerel veritabanı dosyası ayrıca şifrelenmez. Telefonunun kendi ekran kilidi ve disk şifrelemesi tarafından korunur.</p>
+<hr>
+<h2>10. Çocuklar</h2>
+<p>Lumia <strong>18 yaşından küçükler için tasarlanmamıştır</strong> ve bilerek çocuklardan veri toplamayız. Bir çocuğa ait veriyi işlediğimizi fark edersek <strong>sunucudaki hesabı ve kayıtları sileriz</strong> (cihazdaki kayıtlara uzaktan erişimimiz yoktur).</p>
+<p>Uygulamayı kullanarak ve hesap oluştururken 18 yaşını doldurduğunu beyan edersin (Kullanım Koşulları 1). Mağaza yaş derecelendirmemiz de bunu yansıtır.</p>
+<hr>
+<h2>11. Bu politika değişirse</h2>
+<p>Metni güncellediğimizde yürürlük tarihini değiştirir ve önemli değişiklikleri <em>uygulama içinden</em> bildiririz. Sağlık verisi işlemenin kapsamını genişleten bir değişiklikte <em>yeniden açık rıza</em> isteriz.</p>
+<hr>
+<h2>12. İletişim</h2>
+<p>Gizlilikle ilgili her soru ve talep için: <strong>destek@lumiaapp.net</strong></p>
+<hr>
+<p><em>Bu belge KVKK Aydınlatma Metni ile birlikte okunmalıdır.</em></p>
+
+</html>

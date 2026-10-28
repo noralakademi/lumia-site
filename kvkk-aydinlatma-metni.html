@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="tr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<!-- ÜRETİLMİŞ DOSYA — ELLE DÜZENLEME.
+     Kaynak: docs/legal/TR/kvkk-aydinlatma-metni.md · profil: dizin=yok
+     Yeniden üret: dart run tool/hukuk_yayinla.dart --dizin=yok -->
+<style>
+  :root { color-scheme: light dark;
+    --kagit:#FBFBF3; --murekkep:#1b2a16; --soluk:#55604f; --cizgi:#e2e6da; }
+  @media (prefers-color-scheme: dark) { :root {
+    --kagit:#14180f; --murekkep:#eef1e7; --soluk:#a9b3a2; --cizgi:#2b3324; } }
+  body { margin:0 auto; max-width:46rem; padding:2.5rem 1.1rem 5rem;
+    background:var(--kagit); color:var(--murekkep);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    overflow-wrap:break-word; }
+  h1 { font-size:1.7rem; line-height:1.25; margin:0 0 1.4rem; }
+  h2 { font-size:1.22rem; margin:2.3rem 0 .7rem; }
+  h3 { font-size:1.05rem; margin:1.7rem 0 .5rem; }
+  p,li { margin:.7rem 0; }
+  ul,ol { padding-left:1.3rem; }
+  hr { border:0; border-top:1px solid var(--cizgi); margin:2.2rem 0; }
+  code { font-size:.88em; background:rgba(127,127,127,.14);
+    padding:.1em .35em; border-radius:4px; }
+  a { color:inherit; }
+  del { color:var(--soluk); }
+  blockquote { margin:1.4rem 0; padding:.9rem 1.1rem;
+    border-left:3px solid var(--cizgi); background:rgba(127,127,127,.06);
+    border-radius:0 8px 8px 0; }
+  blockquote p { margin:0; }
+  table { width:100%; border-collapse:collapse; margin:1.1rem 0;
+    font-size:.93rem; display:block; overflow-x:auto; }
+  th,td { border:1px solid var(--cizgi); padding:.5rem .6rem;
+    text-align:left; vertical-align:top; }
+  th { background:rgba(127,127,127,.09); }
+</style>
+<h1>KVKK Aydınlatma Metni - Lumia</h1>
+<h2>1. Veri sorumlusu</h2>
+<p>6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca veri sorumlusu sıfatıyla:</p>
+<table>
+<thead><tr>
+<th></th>
+<th></th>
+</tr></thead><tbody>
+<tr>
+<td>Unvan</td>
+<td>Neural Academy Ltd. Şti.</td>
+</tr>
+<tr>
+<td>Adres</td>
+<td>Çukurambar mah. Zeki Ergezen cad. 2/4, Çankaya/Ankara</td>
+</tr>
+<tr>
+<td>İletişim</td>
+<td>destek@lumiaapp.net</td>
+</tr>
+</tbody></table>
+<p>Bu metinde "Lumia" veya "biz" ifadeleri yukarıdaki veri sorumlusunu, "Uygulama" ise Lumia mobil uygulamasını ifade eder.</p>
+<h2>2. Hangi verileri işliyoruz?</h2>
+<p>Uygulama, hesap açmadan (anonim olarak) kullanılabilir. Anonim kullanımda da cihazına bir anonim kullanıcı kimliği atanır.</p>
+<h3>2.0 Önce en önemlisi: verilerin nerede duruyor?</h3>
+<blockquote><p>Sağlık kayıtların sunucularımızda tutulmaz. Yalnızca cihazında kalır. Sunucuda bulunan tek şey hesabın (e-posta adresin, takma adın, oturum ve güvenlik kayıtların, dil tercihinin bir kopyası) ve rıza kaydındır.</p></blockquote>
+<table>
+<thead><tr>
+<th></th>
+<th>Nerede</th>
+<th>Ne var</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Sağlık kayıtların</strong></td>
+<td>Yalnızca telefonunda</td>
+<td>Semptomların, döngün, hormon ilaçların ve doz kayıtların, uyku günlüğün, hatırlatıcıların, okuduğun makaleler, evren ve evre değerlendirmen</td>
+</tr>
+<tr>
+<td><strong>Hesabın</strong></td>
+<td>Sunucuda (bulut)</td>
+<td>E-posta adresin (varsa), kullanıcı kimliğin, şifrenin özeti, oturum bilgilerin ve verdiğin rızaların kaydı</td>
+</tr>
+</tbody></table>
+<p><strong>Bunun pratik anlamı:</strong> semptom kaydettiğinde, ilaç saati işaretlediğinde veya uyku günlüğünü doldurduğunda bu veri bize ulaşmaz. Sunucumuzda bir kopyası yoktur. Uygulamanın takip tarafı bu yüzden internet olmadan da çalışır.</p>
+<p><strong>Rıza kaydını neden sunucuda tutuyoruz:</strong> sağlık verisi işlemek için açık rızanı aldığımızı; ve geri aldığında aldığımızı; <strong>gösterebilmek zorundayız</strong> (KVKK m.6/2). Bu kayıt hangi rızayı, hangi sürümle, ne zaman verdiğinden oluşur. İçinde hiçbir sağlık kaydın yoktur.</p>
+<p>Telefonunu kaybedersen, değiştirirsen veya uygulamayı silersen sağlık kayıtların da kaybolur. Verilerin lokalinde tutulduğundan bizde bir kopyası yoktur. Belirli aralıklarla yedek almanı öneririz (6. bölüm).</p>
+<h3>2.1 Özel nitelikli kişisel veri - sağlık verisi</h3>
+<p>KVKK m.6 kapsamında özel nitelikli sayılan, yalnızca açık rızanla işlediğimiz verilerdir. Takip kayıtlarının tamamı cihazında tutulur. Sunucularımızda hiçbirinin kopyası yoktur.</p>
+<table>
+<thead><tr>
+<th>Veri</th>
+<th>Ne içerir</th>
+<th>Nerede</th>
+</tr></thead><tbody>
+<tr>
+<td>Evre değerlendirmesi</td>
+<td>Değerlendirme yanıtların ve hesaplanan evre</td>
+<td>Cihazında</td>
+</tr>
+<tr>
+<td>Menopoz evresi</td>
+<td>Seçtiğin/hesaplanan evre: perimenopoz öncesi · perimenopoz · postmenopoz · belirsiz</td>
+<td>Cihazında</td>
+</tr>
+<tr>
+<td>Semptom kayıtları</td>
+<td>İşaretlediğin semptomlar, şiddet dereceleri ve varsa notların</td>
+<td>Cihazında</td>
+</tr>
+<tr>
+<td>Döngü kayıtları</td>
+<td>Adet başlangıç/bitiş işaretleri, lekelenme, görünüm tercihleri ve varsa notların</td>
+<td>Cihazında</td>
+</tr>
+<tr>
+<td>Hormonların/ilaçların</td>
+<td>Kullandığın ilacın <strong>kendi yazdığın adı</strong>, biçimi, <strong>kendi yazdığın doz notu</strong>, saatleri ve aldın/almadın kayıtları</td>
+<td>Cihazında</td>
+</tr>
+<tr>
+<td>Uyku günlüğü ve program ilerlemesi</td>
+<td>Yatağa giriş/uyanış saati, gece uyanma sayısı, uykuya dalma süresi, programda kaçıncı gündesin</td>
+<td>Cihazında</td>
+</tr>
+<tr>
+<td>Hatırlatıcılar</td>
+<td>Kurduğun hatırlatıcıların türü, saati ve <strong>kendi yazdığın başlık</strong></td>
+<td>Cihazında</td>
+</tr>
+<tr>
+<td>Okuma kaydı</td>
+<td>Hangi makaleyi ne kadar okudun, ne zaman</td>
+<td>Cihazında</td>
+</tr>
+</tbody></table>
+<p>Serbest metin alanları hakkında dürüst bir not: hatırlatıcı başlığına ve doz notuna ne yazacağını biz belirleyemeyiz. Oraya bir teşhis adı, bir doktorun adı ya da başka bir kişiye ait bilgi yazarsan o da kaydedilir. Bu alanlar cihazından çıkmaz ama yedek aldığında şifreli olarak yedeğin içinde yer alır (6. bölüm).</p>
+<h3>2.2 Sunucuda tuttuğumuz veriler</h3>
+<table>
+<thead><tr>
+<th>Veri</th>
+<th>Ne içerir</th>
+<th>Not</th>
+</tr></thead><tbody>
+<tr>
+<td>Kullanıcı kimliği</td>
+<td>Rastgele üretilmiş bir kimlik numarası (UUID)</td>
+<td>Anonim kullanımda da atanır</td>
+</tr>
+<tr>
+<td>E-posta adresi</td>
+<td>·</td>
+<td>Kalıcı hesaba yükseltirsen</td>
+</tr>
+<tr>
+<td>Şifre özeti</td>
+<td>·</td>
+<td>Parolanın kendisini biz görmeyiz; kimlik altyapısı yönetir</td>
+</tr>
+<tr>
+<td>Takma ad</td>
+<td>·</td>
+<td>Boş bırakılabilir</td>
+</tr>
+<tr>
+<td>Dil tercihin</td>
+<td><code>tr</code> veya <code>en</code></td>
+<td>Asıl tercihin cihazında tutulur (2.3 bölümü). Sunucudaki kopya, kimlik e-postalarını (doğrulama, şifre sıfırlama) seçtiğin dilde gönderebilmemiz içindir</td>
+</tr>
+<tr>
+<td>Hesap durumu ve zamanları</td>
+<td>Anonim mi, e-posta doğrulandı mı, kayıt/giriş zamanları, oturum bilgileri</td>
+<td>Oturum yönetimi için zorunlu</td>
+</tr>
+<tr>
+<td>Rıza kaydın</td>
+<td>Hangi rıza, hangi sürüm, verildi mi, ne zaman</td>
+<td>Hukuki ispat verisi: sunucuda tutuyoruz ki rıza verdiğini/geri aldığını gösterebilelim (KVKK m.6/2)</td>
+</tr>
+</tbody></table>
+<p>Uygulama ad-soyad, doğum tarihi, T.C. kimlik numarası, telefon numarası, konum veya profil fotoğrafı istemez ve tutmaz.</p>
+<h3>2.3 Cihazında kalan, bize hiç ulaşmayan veriler</h3>
+<p>Bu, uygulamanın en büyük veri kümesidir:</p>
+<ul>
+<li>Takip kayıtlarının tamamı (2.1 bölümü); telefonundaki tek bir veritabanı dosyasında. Bu dosya uygulamanın kendi korumalı alanında durur (9. bölüm).</li>
+<li>Senkronizasyon yok. Bu kayıtların tek doğru kopyası cihazındaki dosyadır. Sunucuya gönderilmeyi bekleyen bir kuyruk, arka planda çalışan bir eşitleme bulunmamaktadır. Bu yüzden takip tarafı tamamen çevrimdışı çalışır.</li>
+<li>Hesaplamalar da cihazında yapılır: evre değerlendirmesinin sonucu, döngü günü, semptom örüntülerinden çıkan içgörüler ve içerik önerileri; hiçbiri için veri sunucuya gitmez.</li>
+<li>Kendi yazdığın serbest metinler (hatırlatıcı başlığı, doz notu) cihazından çıkmaz. Yalnızca kendi yedeğin içinde şifreli olarak bulunur (6. bölüm).</li>
+<li>Araç tercihlerin: nefes egzersizi süresi, titreşim, beden taraması süresi.</li>
+<li>Hatırlatıcı bildirimleri cihazın kendi yerel bildirim sistemiyle planlanır. Bildirim içerikleri sunucuya gönderilmez. Bildirim metinleri bilinçli olarak geneldir, kilit ekranında ilaç adın görünmez.</li>
+<li>Kayıtlar çıkış yaptığında değil, hesabını sildiğinde silinir (8. bölüm).</li>
+</ul>
+<p>Önemli istisna: telefonunun iCloud/iTunes yedeği açıksa, sağlık kayıtlarının tutulduğu veritabanı dosyası o yedeğin içine girer ve Apple'ın sunucularına gider. Bu, bizim başlattığımız bir aktarım değildir; cihazının işletim sistemi ayarına bağlıdır. Yine de <em>"verin cihazından çıkmaz"</em> cümlesinin <strong>senin başlatmadığın tek istisnası</strong> budur (diğer yol, kendi yedeğini almandır).</p>
+<h3>2.4 Uygulamanın kullandığı altyapının kendi tuttukları</h3>
+<p>Bu kayıtların çoğunu biz yapmıyoruz, kullandığımız bulut altyapısı yapıyor. Son iki satırı ise sunucumuz kendisi yapıyor. Veri sorumlusu biz olduğumuzdan, hepsini listeliyoruz:</p>
+<table>
+<thead><tr>
+<th>Veri</th>
+<th>Nerede/neden</th>
+</tr></thead><tbody>
+<tr>
+<td>IP adresi ve tarayıcı/cihaz bilgisi (user-agent)</td>
+<td>Giriş, kayıt, e-posta doğrulama ve şifre sıfırlama olaylarında kimlik altyapısının güvenlik kayıtlarına düşer</td>
+</tr>
+<tr>
+<td>Oturum ve yenileme jetonu kayıtları</td>
+<td>Oturumunun açık kalması için teknik zorunluluk</td>
+</tr>
+<tr>
+<td>Platform/istek kayıtları (loglar)</td>
+<td>Altyapı sağlayıcısının kendi işletim kayıtları</td>
+</tr>
+<tr>
+<td>Veritabanı yedekleri</td>
+<td>Altyapı sağlayıcısının felaket kurtarma yedekleri</td>
+</tr>
+<tr>
+<td>Yedek gönderim hata kaydı</td>
+<td>Yedeğini e-postayla gönderirken posta sağlayıcısı isteği reddederse, sunucu tek satırlık bir hata künyesi yazar: HTTP durum kodu ve sağlayıcının hata kodu. Kayıt anonimdir, kimin yedeği olduğunu söylemez.</td>
+</tr>
+<tr>
+<td>Kimlik e-postası hata kaydı</td>
+<td>Doğrulama veya şifre sıfırlama e-postan gönderilirken posta sağlayıcısı isteği reddederse, sunucu yine tek satırlık bir künye yazar: HTTP durum kodu, sağlayıcının hata kodu, e-postanın türü (doğrulama mı, sıfırlama mı) ve gönderim dili.</td>
+</tr>
+</tbody></table>
+<p><strong>Ne süre ile tutuluyor:</strong></p>
+<ul>
+<li>Kimlik doğrulama olay kayıtları (tablonun ilk iki satırı) en fazla 90 gün tutulur. Süresi dolanlar düzenli olarak silinir (8. bölüm).</li>
+<li>Sağlayıcıların kendi işletim logları ve felaket kurtarma yedekleri, onların saklama sürelerine tabidir ve bizim kontrolümüzde değildir.</li>
+</ul>
+<h2>3. Verilerini hangi amaçlarla işliyoruz?</h2>
+<ol>
+<li><strong>Uygulamanın temel işlevini sunmak:</strong> semptom, döngü, ilaçlar ve uyku kayıtlarını cihazında saklamak ve sana geri göstermek.</li>
+<li><strong>Kişiselleştirme:</strong> evrene ve kaydettiğin semptomlara göre içerik ve araç önermek. Bu hesaplama cihazında yapılır.</li>
+<li><strong>Hatırlatma:</strong> kurduğun hatırlatıcıları zamanında göstermek.</li>
+<li><strong>Hesap güvenliği ve yönetimi:</strong> giriş, e-posta doğrulama, şifre sıfırlama, hesap silme. Bu e-postaları seçtiğin dilde gönderebilmek için dil tercihinin bir kopyası hesap üstverinde tutulur (2.2, 2.3).</li>
+<li><strong>Yedeğini göndermek:</strong> istediğinde şifreli yedek dosyanı oluşturmak ve doğrulanmış e-posta adresine göndermek (6. bölüm).</li>
+<li><strong>Yasal yükümlülüklerin yerine getirilmesi:</strong> rıza kayıtlarının saklanması, yetkili kurum taleplerinin karşılanması.</li>
+<li><strong>Uygulamayı geliştirmek:</strong> hangi ekranların kullanıldığını, kurulum akışının neresinde zorlandığını ve uygulamanın nerede hata verdiğini ölçmek. Bu ölçüm yalnızca ayrıca onay verirsen çalışır (5.1).</li>
+</ol>
+<p><strong>Yapmadıklarımız:</strong> Verilerini reklam veya pazarlama amacıyla kullanmıyoruz, üçüncü taraflara satmıyoruz, profil çıkarıp reklam ağlarıyla paylaşmıyoruz. Uygulamada reklam ağı bulunmuyor. Uygulamayı nasıl kullandığını ve nerede hata aldığını ölçen bir araç ise var; yalnızca senin açık onayınla çalışır (5.1). Uygulama tıbbi tanı koymaz, doz veya reçete önermez. Gönderdiğimiz e-postalar hiçbir uzak görsel yüklemez, yani e-postayı açıp açmadığını takip etmiyoruz.</p>
+<h2>4. Hukuki sebepler</h2>
+<p><strong>Toplama yöntemi:</strong> kişisel verilerin, Uygulama ve ona bağlı sunucu altyapısı üzerinden, tamamen veya kısmen otomatik yollarla elektronik ortamda toplanır. Her veri türünün dayandığı hukuki sebep aşağıdadır:</p>
+<table>
+<thead><tr>
+<th>Veri türü</th>
+<th>Hukuki sebep</th>
+</tr></thead><tbody>
+<tr>
+<td>Sağlık verileri (2.1 bölümü)</td>
+<td>Açık rıza (KVKK m.6/2). Rızanı dilediğin an geri alabilirsin (11. bölüm).</td>
+</tr>
+<tr>
+<td>E-posta adresi</td>
+<td>Sözleşmenin kurulması/ifası (m.5/2-c)</td>
+</tr>
+<tr>
+<td>Kullanıcı kimliği (UUID), hesap durumu ve zamanları</td>
+<td>Sözleşmenin kurulması/ifası (m.5/2-c); hesabın ve oturumun çalışması için zorunludur</td>
+</tr>
+<tr>
+<td>Rıza kayıtları</td>
+<td>Bir hakkın tesisi, kullanılması veya korunması için zorunlu olması (m.5/2-e), rızanın alındığının ve geri alındığının ispatı</td>
+</tr>
+<tr>
+<td>Takma ad</td>
+<td>Meşru menfaat (m.5/2-f), temel işlevin çalışması</td>
+</tr>
+<tr>
+<td>Dil tercihinin sunucudaki kopyası (2.2 bölümü)</td>
+<td>Meşru menfaat (m.5/2-f); kimlik e-postalarını senin dilinde gönderebilmek</td>
+</tr>
+<tr>
+<td>Oturum, IP ve güvenlik kayıtları</td>
+<td>Meşru menfaat (m.5/2-f); hesap güvenliği</td>
+</tr>
+<tr>
+<td>Kullanım ve hata kayıtları (5.1 bölümü)</td>
+<td>Açık rıza (KVKK m.5/1). Yurt dışında işlenmesi için de açık rıza (m.9; 7). Zorunlu değildir; rızanı dilediğin an geri alabilirsin (11. bölüm)</td>
+</tr>
+</tbody></table>
+<h2>5. Verilerini kimlerle paylaşıyoruz?</h2>
+<table>
+<thead><tr>
+<th>Alıcı</th>
+<th>Neden</th>
+<th>Ne aktarılır</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Supabase</strong> (altyapı/barındırma)</td>
+<td>Veritabanı, kimlik doğrulama, sunucu işlevleri</td>
+<td>Yalnızca 2.2'deki veriler (hesabın, rıza kaydın) ve 2.4'teki altyapı kayıtları. Takip kayıtların (semptom, döngü, ilaçlar, uyku; 2.1) buraya gönderilmez.</td>
+</tr>
+<tr>
+<td><strong>Brevo</strong> (e-posta gönderimi)</td>
+<td>Yedek dosyanı sana e-postayla ulaştırmak</td>
+<td><strong>(a)</strong> e-posta adresin, <strong>(b)</strong> e-postanın konu satırı, <strong>(c)</strong> şifreli yedek dosyan. Ayrıntısı 6. bölümde</td>
+</tr>
+<tr>
+<td><strong>Brevo</strong> (AB; GCP Belçika)</td>
+<td>E-posta doğrulama ve şifre sıfırlama e-postaları</td>
+<td>Yalnızca e-posta adresin</td>
+</tr>
+<tr>
+<td><strong>PostHog, Inc.</strong> (kullanım ölçümü)</td>
+<td>Uygulamanın nasıl kullanıldığını ve nerede hata verdiğini ölçmek</td>
+<td>Yalnızca 5.1'de sayılan ölçüm verileri ve cihazında üretilen rastgele ölçüm kimliği. Sağlık kayıtların (2.1), hesap kimliğin ve e-posta adresin buraya gönderilmez. Yalnızca açık rıza verdiysen</td>
+</tr>
+<tr>
+<td>Yetkili kamu kurum ve kuruluşları</td>
+<td>Kanuni talep hâlinde</td>
+<td>Talebin kapsamıyla sınırlı</td>
+</tr>
+</tbody></table>
+<p>Bunların dışında başka bir üçüncü tarafa aktarım yapmıyoruz. Reklam ağı veya veri simsarı kullanılmamaktadır. Kullanım ölçümü için çalıştığımız sağlayıcı yukarıdaki tabloda yer alır (5.1).</p>
+<p>Apple bu tabloda yer almaz, çünkü o bizim yaptığımız bir aktarım değildir: telefonunun iCloud/iTunes yedeği açıksa, işletim sistemi sağlık veritabanı dosyanı Apple'a yedekler. Bu tamamen senin cihaz ayarına bağlıdır ve 2.3'te açıkça anlatılmıştır.</p>
+<p>Yukarıdaki sağlayıcılarla veri işleme sözleşmeleri (DPA), sağlayıcıların hizmet şartlarının eki olarak düzenlenmiştir ve bu şartların kabulüyle <strong>yürürlüktedir</strong>, ayrıca atılan bir ıslak imza yoktur.</p>
+<h2>5.1 Kullanım ölçümü</h2>
+<p>Uygulamayı geliştirebilmek için, uygulamayı nasıl kullandığını ölçüyoruz: hangi ekranlar işine yarıyor, hangileri hiç açılmıyor, ilk kurulum adımlarının neresinde zorlanıyorsun ve uygulama nerede hata veriyor. Bu ölçüm zorunlu değildir; yalnızca rıza ekranındaki ilgili maddeye ayrıca onay verirsen çalışır. Onay vermezsen uygulamanın tamamını aynı şekilde kullanmaya devam edersin, hiçbir özellik kapanmaz.</p>
+<p>Ölçümde bize ulaşanlar şunlardır:</p>
+<ul>
+<li>hangi ekranı veya aracı açtığın ve hangi sekmeye geçtiğin;</li>
+<li>bir kaydı hangi alanda oluşturduğun — örneğin bunun bir semptom kaydı mı, bir uyku kaydı mı olduğu; <strong>kaydın kendisi değil</strong>;</li>
+<li>ilk kurulum akışında kaçıncı adımda olduğun (adımın numarası);</li>
+<li>bir içeriği veya aracı açtığın, tamamladığın ya da yarıda bıraktığın;</li>
+<li>uygulamanın hata verdiği an: hatanın türü ve hangi yüzeyde oluştuğu;</li>
+<li>uygulama dilin, kullandığın platform ve uygulama sürümü;</li>
+<li>cihazında üretilen rastgele bir ölçüm kimliği.</li>
+</ul>
+<p>Ölçüme girmeyenler ise şunlardır:</p>
+<ul>
+<li><strong>semptom, döngü ve ilaç kayıtların bu ölçüme katılmaz</strong>; uyku günlüğün, ruh hâlin, notların ve menopoz evren de katılmaz;</li>
+<li>bir kaydın içeriği — değeri, şiddeti, sayısı, tarihi, süresi, adı veya yazdığın serbest metin — hiçbir koşulda gönderilmez;</li>
+<li>hangi makaleyi okuduğun gönderilmez.</li>
+</ul>
+<p>Ölçüm, cihazında üretilen rastgele bir kimlikle yapılır. Bu kimlik hesabınla, e-posta adresinle veya kullanıcı kimliğinle birleştirilmez; bunları ölçüm sağlayıcısına hiç göndermeyiz.</p>
+<p>Ölçümü bizim adımıza bir hizmet sağlayıcı yapar: <strong>PostHog, Inc.</strong> (San Francisco, Amerika Birleşik Devletleri). Bu sağlayıcı bizim <strong>veri işleyenimizdir</strong>: veriyi yalnızca bizim talimatımızla işler, kendi amaçları için kullanamaz. Aktarılan veri 5. bölümdeki tabloda yer alır. Sağlayıcıyla aramızda bir veri işleme sözleşmesi (DPA) yürürlüktedir.</p>
+<p>Ölçüm verisi yurt dışında işlenir. Veri sağlayıcının Frankfurt (Almanya) bölgesindeki altyapısında <strong>depolanır</strong>, ancak sağlayıcı veriyi hizmeti sunabilmek için <strong>Amerika Birleşik Devletleri dahil olmak üzere Avrupa dışındaki ülkelerden de işler</strong>; bunu sözleşmede açıkça kabul ettik. Bunun hukuki dayanağı <strong>açık rızandır</strong> (KVKK m.9) ve bu rızayı rıza ekranında <strong>kullanım ölçümüne ait ayrı bir madde</strong> ile isteriz. Bu, hesap verilerinin yurt dışında işlenmesi için verdiğin rızadan <strong>ayrı</strong> bir rızadır ve ayrı kaydedilir: ölçüm rızasını vermemen veya sonradan geri alman hesabını ve diğer rızalarını etkilemez.</p>
+<p>Ölçüm kayıtları sınırlı bir süre saklanır ve ardından silinir; süreyi kullandığımız sağlayıcının saklama politikası belirler. Rızanı geri aldığında ölçüm <strong>anında durur</strong> ve yeni kayıt gönderilmez. Sağlayıcı ayrıca kayıtların silinmesi için bir yol sunar, ancak bu silme işlemi için bir süre taahhüdü vermemektedir.</p>
+<p>Ölçümü istediğin an kapatabilirsin: <strong>Profil → Gizlilik ve veri → Rıza tercihleri → Kullanım istatistikleri</strong>. Kapatmak anında etkilidir, uygulamayı yeniden başlatman gerekmez. Kapattığında ölçüm kimliğin de silinir. Sağlık verisi işleme rızanı geri alırsan ölçüm de birlikte kapanır (11. bölüm).</p>
+<h2>6. Yedekleme ve verilerini dışa aktarma</h2>
+<p>Takip kayıtların (semptom, döngü, ilaçlar, uyku…) yalnızca cihazında olduğu için, telefonunu kaybetme riskine karşı Uygulama sana kendi yedeğini alma yolunu sunar.</p>
+<p><strong>Yedeği sen oluşturursun:</strong></p>
+<ul>
+<li>Yedek alırken senden bir parola tanımlaman istenir. Yedek dosyası bu parolayla şifrelenir.</li>
+<li>Bu parolayı yalnızca sen bilirsin. Biz saklamayız, sunucumuz görmez. Unutursan yedek açılamaz.</li>
+</ul>
+<p><strong>Yedeği iki yolla alabilirsin:</strong></p>
+<ol>
+<li>Dosyayı paylaşarak: telefonunun paylaşım menüsünden kendi seçtiğin yere (Dosyalar, bir bulut hizmeti, başka bir cihaz) kaydedebilirsin. Bu yolda dosya hiç dışarı çıkmaz.</li>
+<li>Kendi e-posta adresine göndererek: sunucumuz dosyayı alır ve e-posta sağlayıcımız (Brevo) üzerinden adresine yollar.</li>
+</ol>
+<table>
+<thead><tr>
+<th></th>
+<th></th>
+</tr></thead><tbody>
+<tr>
+<td>Ne gönderilir</td>
+<td>Şifreli yedek dosyan, e-posta adresin ve e-postanın konu satırı</td>
+</tr>
+<tr>
+<td>Kime gönderilir</td>
+<td>Yalnızca kendi hesabının doğrulanmış e-posta adresine. E-posta adresini doğrulamadıysan bu yol çalışmaz</td>
+</tr>
+<tr>
+<td>Biz dosyayı açabilir miyiz</td>
+<td>Hayır, parolayı yalnız sen biliyorsun. Dosyanın içindekileri ne biz ne sağlayıcı okuyabilir</td>
+</tr>
+<tr>
+<td>Bizde kopyası kalır mı</td>
+<td>Hayır. Hiçbir depoya, hiçbir veritabanı tablosuna yazılmaz, içeriği hiçbir kayda geçirilmez</td>
+</tr>
+<tr>
+<td>Nerede işlenir</td>
+<td>E-posta sağlayıcımız Belçika'da bulunmaktadır</td>
+</tr>
+</tbody></table>
+<p><strong>Dikkatini çekmek istediğimiz noktalar:</strong></p>
+<ul>
+<li>Şifreli de olsa bu bir kişisel veri aktarımıdır. Dosyayı açamıyor olmamız, hukuken "veri işlemiyoruz" demek değildir.</li>
+<li>Teslim anonim değildir. Gönderen adres, konu satırı ve dosya adı Lumia'yı belli eder. Yani e-posta sağlayıcısı dosyanın içini görmese bile <em>"bu adres Lumia kullanıyor"</em> bilgisini edinir.</li>
+<li>E-posta sağlayıcısının kendi gönderim kayıtları bizim kontrolümüzde değildir.</li>
+<li>Dosya senin e-posta kutunda kalır. Hesabını silsen bile biz onu silemeyiz, o kopya artık senin elindedir.</li>
+</ul>
+<h2>7. Yurt dışına aktarım</h2>
+<ul>
+<li>Yurt dışında işlenen veriler hesap verilerin (2.2 bölümü) ve altyapı kayıtlarıdır (2.4 bölümü). Bunlar Frankfurt (Almanya) bölgesinde işlenir. Yedeğini e-postayla gönderirken devreye giren sunucu işlevi aynı bölgeye sabitlenmiştir ve e-posta sağlayıcımız Belçika'dadır (6. bölüm). İkisi de Avrupa Birliği içindedir. Kullanım ölçümü verisi de yurt dışında işlenir; onun dayanağı rıza ekranındaki <strong>kullanım ölçümüne ait ayrı maddedir</strong> ve bu madde zorunlu değildir (5.1). Hesap verilerin için verdiğin yurt dışı rızası ile ölçüm için verdiğin rıza <strong>ayrı ayrı</strong> alınır ve ayrı ayrı kaydedilir.</li>
+<li>Hukuki dayanak, açık rızandır (KVKK m.9). Hesap verilerinin yurt dışında işlenmesine ilişkin rızanı, rıza ekranında ayrı bir madde olarak isteriz ve kaydını tutarız. Sunucumuz yurt dışında olduğu için bu rızayı geri almanın pratik karşılığı hesabını silmektir (8. bölüm); bunu gizlemiyoruz.</li>
+<li>Muhtemel riskler konusunda bilgilendirme: aktarımın yöneldiği ülkeler için Kurul tarafından ilan edilmiş bir yeterlilik kararı bulunmamaktadır; verin yurt dışında işlendiği sürece haklarını kullanman Türkiye'dekine göre gecikebilir ve Türk makamlarının yurt dışındaki işleme üzerindeki denetim imkânı daha sınırlıdır. Buna karşılık sunucularımızın bulunduğu Almanya ve Belçika, AB veri koruma hukukuna (GDPR) tabidir.</li>
+<li>Bu Uygulamanın niteliği gereği <em>"Lumia'da kayıtlı bir e-posta adresi"</em> bilgisi tek başına bir sağlık beyanı sayılabilir. Aktarılan küme bu yüzden bilinçli olarak asgaride tutulur (hesap verilerin ve rıza kaydın) ve sağlık günlüğün hiçbir koşulda yurt dışına taşınmaz.</li>
+</ul>
+<h2>8. Verilerini ne kadar süre saklıyoruz?</h2>
+<ul>
+<li>Cihazındaki sağlık kayıtların sen silene kadar cihazında kalır. Uygulamayı silmek de bu kayıtları götürür.</li>
+<li>Hesap verilerin hesabını kapatana kadar saklanır.</li>
+<li>Oturum ve güvenlik kayıtların (2.4; IP adresin, giriş/kayıt olayları) en çok 90 gün saklanır ve süresi dolanlar düzenli olarak silinir. Altyapı sağlayıcılarının kendi işletim logları ve felaket kurtarma yedekleri bunun dışındadır. Onlar sağlayıcının kendi süresine tabidir (aşağıdaki not).</li>
+<li>Hesabını sildiğinde iki şey birlikte olur: 1. Sunucudaki hesabın ve ona bağlı tüm kayıtlar silinir (tek istisna, bir alt maddedeki rıza kaydıdır), 2. Cihazındaki sağlık veritabanı da yok edilir. Silme işlemi yarıda kesilirse (örneğin uygulamayı kapatırsan) kalan kısım bir sonraki açılışta tamamlanır. İşlem geri alınamaz.</li>
+<li>Rıza kayıtların, hesabın silinmesinden sonra 5 yıl daha saklanır ve sürenin sonunda silinir. Dayanağı m.5/2-e'dir: rızanın alındığını ve geri alındığını, hesap kapandıktan sonra gelebilecek bir iddiaya karşı da ispat edebilmemiz gerekir. Bu kayıtta hiçbir sağlık verin yoktur; hesabın silinmesiyle birlikte e-posta adresin de kayıttan çıkar. Geriye yalnızca rastgele kullanıcı kimliği (UUID) ve rıza üstverisi kalır.</li>
+<li>Kullanım ölçümü kayıtları ölçüm sağlayıcısında sınırlı bir süre saklanır ve ardından silinir; süreyi sağlayıcının saklama politikası belirler. Rızanı geri aldığında yeni kayıt gönderilmez (5.1).</li>
+</ul>
+<h2>9. Verilerin nasıl korunuyor?</h2>
+<p><strong>Cihazındaki veriler için:</strong></p>
+<ul>
+<li>Sağlık veritabanı dosyası uygulamanın kendi korumalı alanındadır. Telefonundaki başka uygulamalar onu okuyamaz.</li>
+<li>Telefonunun cihaz şifrelemesi bu dosyayı da kapsar. Yani telefonun kilitliyken dosya şifreli durur.</li>
+<li>Dürüst sınır: veritabanı dosyasının kendisi, cihaz şifrelemesinin üstüne ayrıca bir parolayla şifrelenmiyor.</li>
+<li>Telefonun kilidini bilen biri uygulamaya erişebilir.</li>
+</ul>
+<p><strong>Sunucudaki veriler için:</strong></p>
+<ul>
+<li>Her kullanıcı yalnızca kendi verisine erişebilir. Bu, veritabanı seviyesinde satır düzeyi güvenlik (Row Level Security) ile zorunlu kılınmıştır. Uygulama kodundaki bir hata bile başka bir kullanıcının verisini açığa çıkaramaz.</li>
+<li>Veriler aktarımda ve saklamada şifrelenir.</li>
+<li>Uygulama personeli, işleyişte kullanıcıların kayıtlarını görüntüleyemez.</li>
+</ul>
+<p>Hiçbir sistem için mutlak güvenlik sözü vermiyoruz. Yukarıdakiler aldığımız somut önlemlerdir.</p>
+<h2>10. KVKK m.11 kapsamındaki hakların</h2>
+<p>KVKK m.11 uyarınca, bize başvurarak: kişisel verinin işlenip işlenmediğini ve işlendiyse buna ilişkin bilgiyi, işlenme amacını ve amaca uygun kullanılıp kullanılmadığını, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri öğrenme; eksik veya yanlış işlenmişse düzeltilmesini, silinmesini veya yok edilmesini ve bu işlemlerin verinin aktarıldığı üçüncü kişilere bildirilmesini isteme; münhasıran otomatik sistemlerle yapılan analiz sonucunda aleyhine çıkan bir sonuca itiraz etme; kanuna aykırı işleme nedeniyle zarara uğrarsan zararın giderilmesini talep etme haklarına sahipsin.</p>
+<p>Başvurunu, hesabına kayıtlı e-posta adresinden destek@lumiaapp.net adresine e-postayla veya Çukurambar mah. Zeki Ergezen cad. 2/4, Çankaya/Ankara adresine yazılı olarak yapabilirsin. Başvurun en geç 30 gün içinde sonuçlandırılır.</p>
+<p>Uygulama içinden ayrıca:</p>
+<ul>
+<li><strong>Rıza tercihleri</strong> ekranından (<strong>Profil → Gizlilik ve veri → Rıza tercihleri</strong>) sağlık verisi işlemeye verdiğin açık rızayı <strong>görebilir</strong> (ne için, hangi metin sürümüyle, ne zaman verdin) ve <strong>geri alabilirsin</strong>; yazılı başvuru göndermene gerek yok. Geri aldığında ne olacağını <strong>11. bölüm</strong> anlatır,</li>
+<li><strong>Yedekleme</strong> ekranından kayıtlarının şifreli bir kopyasını <strong>oluşturabilir ve indirebilirsin</strong> (6. bölüm),</li>
+<li><strong>Hesabı sil</strong> ile hem sunucudaki hesabını hem cihazındaki kayıtlarını kalıcı olarak silebilirsin (8. bölüm),</li>
+<li><strong>Çıkış yap</strong> cihazındaki kayıtlarını <strong>silmez</strong>; yalnızca oturumunu kapatır.</li>
+</ul>
+<p><strong>Rızanı geri alma yolu artık uygulamanın içinde.</strong> Önceki sürümlerde bu ekran <em>"hazırlanıyor"</em> diye duyuruluyordu; <strong>artık yayında</strong> ve yukarıdaki listenin ilk maddesinde yolu yazılı. Yukarıdaki <strong>başvuru adresi kapanmadı</strong>; m.11'in diğer hakları ve her türlü sorun için açık kalmaya devam ediyor.</p>
+<h2>11. Rızanı geri alırsan ne olur?</h2>
+<p><strong>Silinenler:</strong></p>
+<ul>
+<li>Bu veriye dayanan kişiselleştirme ve takip özellikleri çalışmaz.</li>
+<li>Cihazındaki sağlık kayıtlarının tamamı silinir: semptomların, döngün, hormonların/ilaçların ve doz kayıtların, uyku günlüğün, hatırlatıcıların, hangi makaleyi okuduğunun kaydı ve evren ile evre değerlendirmen. (Okuma kaydını da sayıyoruz çünkü 2.1'de onu özel nitelikli sayıyoruz, kendi kuralımıza istisna açmıyoruz.)</li>
+<li>Kurulmuş hatırlatıcı bildirimlerin iptal edilir (kendi yazdığın başlıklar telefonunun ekranında bir daha görünmez) ve yedek alma hatırlatması kapatılır.</li>
+</ul>
+<p><strong>Silinmeyenler ve nedenleri:</strong></p>
+<ul>
+<li><strong>Hesabın silinmez.</strong> E-posta adresin, şifren ve oturumun yerinde kalır; bu bir hesap silme işlemi değildir. Hesabını da silmek istersen o ayrı bir yoldur (8. bölüm).</li>
+<li><strong>Rıza kaydın sunucuda kalır</strong> ve üstüne bir <em>"geri aldı"</em> kaydı eklenir (var olan kayıt değiştirilmez). Bunu, rızanı aldığımızı ve geri aldığını gösterebilmek zorunda olduğumuz için yapıyoruz (KVKK m.6/2; 2.0). Bu kaydın içinde hiçbir sağlık verin yoktur.</li>
+<li><strong>Dil tercihin ve uygulama ayarların</strong> (ör. nefes egzersizinin süresi) korunur; bunlar sağlık verisi değildir ve silinmeleri sana bir şey kazandırmaz.</li>
+</ul>
+<p><strong>Kullanım ölçümü rızası ayrıdır:</strong> <strong>kullanım ölçümü rızanı</strong> geri alırsan ölçüm anında durur, bekleyen kayıtlar gönderilmez ve cihazındaki ölçüm kimliği silinir. Hesabın, sağlık kayıtların ve diğer rızaların bundan etkilenmez. <strong>Sağlık verisi işleme rızanı</strong> geri alırsan kullanım ölçümü de birlikte kapanır (5.1).</p>
+<p>Geri alma, geri alma tarihinden önceki hukuka uygun işlemeyi etkilemez. Fikrini tekrar değiştirebilirsin. Geri aldıktan sonra uygulama seni rıza ekranına götürür, istersen oradan yeniden rıza verip baştan başlayabilirsin. Ama silinen kayıtların geri gelmeyecektir.</p>
+<p>Daha önce aldığın yedek dosyaları senin elinde kalır; onları silmek senin sorumluluğunda.</p>
+<h2>12. Değişiklikler</h2>
+<p>Bu metni güncellediğimizde yürürlük tarihini değiştirir ve önemli değişiklikleri uygulama içinden bildiririz. Sağlık verisi işlemenin kapsamını genişleten bir değişiklikte <strong>yeniden açık rıza</strong> isteriz.</p>
+<hr>
+<p><em>Bu belge KVKK m.10 aydınlatma yükümlülüğü kapsamında hazırlanmıştır ve Gizlilik Politikası (<code>gizlilik-politikasi.md</code>) ile birlikte okunmalıdır.</em></p>
+
+</html>
